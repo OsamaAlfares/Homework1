@@ -1,0 +1,179 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #121212;
+  color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: white;
+}
+
+.highlight {
+  background: linear-gradient(115.69deg, #ff8660 71.79%, #9a33ff 95.51%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: flex-start;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  font-size: 10px;
+  color: #c5c5c5;
+}
+
+.p1 {
+  letter-spacing: 4px;
+}
+
+.experience-with {
+  text-align: center;
+  margin: 50px 0;
+  color: white;
+}
+.tech-icons {
+  margin-top: 35px;
+}
+.tech-icons img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin: 0 10px;
+}
+.tech-icons img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.p2 {
+  font-size: 15px;
+  background: linear-gradient(180deg, #ff8660 0%, #d5491d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+
+.image1 {
+  height: 150px;
+  width: 200px;
+}
+
+.p3 {
+  background: linear-gradient(180deg, #5badff 0%, #1373d1 100%);
+  font-size: 15px;
+  margin-bottom: 15px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+
+.job-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.job-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.job-header img {
+  height: 32px;
+  width: 30px;
+  margin: 0px;
+}
+
+.job-header h3 {
+  margin: 0;
+
+  color: white;
+}
+
+.p4 {
+  color: #8491a0;
+
+  margin-left: 30px;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav .logo {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .intro p {
+    font-size: 12px;
+  }
+
+  .project-card {
+    width: 90%;
+  }
+
+  .job-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .job-header h3,
+  .job-header p {
+    text-align: left;
+  }
+
+  .footer-content {
+    text-align: center;
+  }
+
+  .email-line {
+    justify-content: center;
+  }
+
+  .footer-icons {
+    justify-content: center;
+  }
+}
